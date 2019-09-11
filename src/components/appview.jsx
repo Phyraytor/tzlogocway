@@ -31,6 +31,9 @@ class AppView extends React.Component{
             <li>
               <NavLink to="/">Все изображения</NavLink>
             </li>
+            <li>
+              <NavLink to="/registr">Все изображения</NavLink>
+            </li>
           </ul>
         </header>    
         <Switch>

@@ -40,11 +40,11 @@ class RegistrForm extends React.Component {
   }
   render() {
     return (
-      <form> 
+      <form action = "/signup" method = "POST"> 
         <input name = "login" type = "text"/>
         <input name = "password" type = "password"/>
         <input name = "passwordRepeat" type = "password"/>
-        <button class = "button btn btn-info col-7" onClick={ this.handleSubmit.bind(this) }>Зарегистрироваться</button> 
+        <button class = "button btn btn-info col-7" type="submit">Зарегистрироваться</button> 
         <button class = "button btn btn-info col-7" onClick={ this.hideForm.bind(this) }>Назад</button> 
       </form>
     );
